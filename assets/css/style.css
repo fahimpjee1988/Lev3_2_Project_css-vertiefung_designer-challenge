@@ -1,0 +1,83 @@
+/* Assets:
+Font: Roboto
+Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+*{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+
+    padding: 0;
+}
+#art1logo{
+    vertical-align: baseline;
+}
+
+#logo img{
+    width:33px;
+    padding-right: 12px;
+    float:left;
+    padding-left: 1%;
+}
+
+.firsth4{
+    font-size: larger;
+    
+}
+.firstp{
+    font-size: 12px;
+    padding-left: 6%;
+}
+
+#firstsection{
+    
+        background-image:url(../img/ilustracion_people.png),url(../img/ilustracion1.png);
+        background-repeat:no-repeat,no-repeat;
+        background-position:right center, right top;
+        background-size: 50%;
+    
+    height: 100vh;
+
+}
+#firstsection:hover{
+    background-image:url(../img/ilustracion_people.png),url(../img/ilustracion1.png);
+        background-repeat:no-repeat,no-repeat;
+        background-position:right bottom, right top;
+        background-size: 50%;
+    
+    height: 100vh;
+
+}
+
+
+#firstsection img{
+    size:50%;
+}
+
+#section2 img{
+    width:85%;
+    padding-left: 5%;
+    
+}
+#section2{
+    margin: 0 auto;
+}
+
+#article2{
+    width:400px;
+    padding-left: 12%;
+   padding-top: 15%;
+}
+
+#article2 h1{
+    font-size: 44px;
+}
+
+#article2 h3{
+    font-size: 12px;
+    font-weight: 300;
+}
+.article2a{
+    padding-top: 77px;
+font-size: 10px;    
+}
